@@ -9,7 +9,7 @@ Pada sebuah aplikasi, penggunaan *database* sebagai *persistent storage* sangatl
 
 ### Level 0: Store and get it now
 
-Pada release kali ini, kita akan membuat aplikasi kita lebih dinamis dengan menyimpan data-data di dalam array `books` ke dalam sebuah table di `PostgreSQL`. Buatlah sebuah table dengan nama `books` dan skema sebagai berikut:
+Pada release kali ini, kita akan membuat aplikasi kita lebih dinamis dengan menyimpan data-data di dalam array `books` ke dalam sebuah table di `MySQL`. Buatlah sebuah table dengan nama `books` dan skema sebagai berikut:
 
 | Field          | Datatype | Modifiers              |
 | :------------- | :------- | :--------------------- |
@@ -22,11 +22,11 @@ Pada release kali ini, kita akan membuat aplikasi kita lebih dinamis dengan meny
 | borrowed_date  | DATE     |                        |
 | returned_date  | DATE     |                        |
 
-Setelah berhasil, buatlah koneksi antara aplikasi yang kita buat dengan database `PostgreSQL` tersebut.
+Setelah berhasil, buatlah koneksi antara aplikasi yang kita buat dengan database `MySQL` tersebut.
 
 ### Level 1: Create CRUD Operations
 
-Setelah aplikasi berhasil terkoneksi dengan `PostgreSQL`, sekarang saatnya kita membuat CRUD operations pada aplikasi kita.
+Setelah aplikasi berhasil terkoneksi dengan `MySQL`, sekarang saatnya kita membuat CRUD operations pada aplikasi kita.
 
 Buatlah peubahan pada kode kalian untuk dapat melakukan CRUD operations dengan detail seperti dibawah:
 
